@@ -1,0 +1,16 @@
+import EnfermedadAutoinmune.*
+import EnfermedadInfecciosa.*
+
+describe "Enfermedades"{
+	var malaria1
+	var otitis
+	var lupus
+	var malaria2
+	
+	method inicialize(){
+		malaria1 = new EnfermedadInfecciosa(cantidadCelulasAmenazadas = 500)
+		otitis = new EnfermedadInfecciosa(cantidadCelulasAmenazadas = 100)
+		lupus = new EnfermedadAutoinmune(cantidadCelulasAmenazadas = 10000)
+		malaria2 = new EnfermedadInfecciosa(cantidadCelulasAmenazadas = 800)
+	}
+}

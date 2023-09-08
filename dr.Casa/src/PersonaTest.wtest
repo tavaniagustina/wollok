@@ -1,0 +1,19 @@
+import EnfermedadAutoinmune.*
+import EnfermedadInfecciosa.*
+import Persona.*
+
+describe "Personas"{
+	var logan
+	var frank
+	var enfermedades
+	
+	method inicialize(){
+		enfermedades = new EnfermedadAutoinmune()
+		
+		logan = new Persona(temperaturaCorporal = 36, cantidadCelulas = 3000000)
+		frank = new Persona(temperaturaCorporal = 36, cantidadCelulas = 3500000)
+	
+
+	
+	}
+}
